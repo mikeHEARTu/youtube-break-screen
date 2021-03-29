@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+body
+{
+	background: #ecf0f1;
+	color:#2c3e50;
+	text-align: left;
+	font-family: 'Inter', sans-serif;
+	font-size: 1.55vw;
+	overflow: hidden;
+}
+.screenContainer
+{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.textContainer
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 80%;
+	height: 100%;
+	padding: 0 5%;
+}
+.textTitle
+{
+	color:#c0392b;
+	font-weight: 900;
+	font-size: 4em;
+	font-style: italic;
+}
+.textBody
+{
+	line-height: 4vh;
+}
+.textSubscribe
+{
+	color:#c0392b;
+}
+.textStrike
+{
+	text-decoration: line-through;
+}
+.textSocial
+{
+	border-top: solid 0.2vh black;
+	margin-top: 2vh;
+	padding-top: 2vh;
+	color: #2980b9;
+}
+.imageContainer
+{
+	width: 100%;
+	height: 100%;
+	background: url("img/aamyr-peN6l68AWaw-unsplash.jpg");
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+}
+.imageVideo
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@keyframes fadeIn
+{
+    from
+	{
+		filter:opacity(0);
+		transform: translateY(24px);
+	}
+	to
+	{
+		filter:opacity(1);
+	}
+}
